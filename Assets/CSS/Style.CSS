@@ -1,0 +1,219 @@
+* {
+    background-color: whitesmoke;
+    margin: 0px 0px;
+    letter-spacing: -.05em;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    padding: 15px;
+    background-color: whitesmoke;
+    z-index: 10;
+
+/* display */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+/* border */
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}
+
+.logo {
+    position: relative;
+    padding-left: 25px;;
+     /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}
+
+.header h1 {
+    position: relative;
+    right: 85px;
+    bottom: 7.5px;
+    letter-spacing: 3px;
+}
+
+.menu {
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    top: 100px;
+    padding: 300px;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}
+
+.jumbotron h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 150px;
+    letter-spacing: 3px;
+}
+ 
+/* .border {
+    padding: 7px;
+    width: 1500px;
+    background-image: linear-gradient(red, purple, purple);
+    position: relative;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.border-inner {
+    width: 1500px;
+    height: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+} */
+
+.jumbotron-two {
+    position: relative;
+    opacity: .83;
+    padding: 300px;
+}
+
+.lower {
+    height: 1400px;
+    width: 100%;
+    background-color: rgba(234, 203, 187, 0.25);
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    padding: 50px;
+    margin-bottom: 25px;
+}
+
+.box-set {
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}
+
+.box-one {
+    float: left;
+    position: relative;
+    top: 200px;
+    width: 1680px;
+    background-color: transparent;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 2px;    */
+}
+
+.box-one img {
+    position: relative;
+    left: 100px;
+    box-shadow: 10px 10px 15px lightgray;
+}
+
+.box-one p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 35px;
+    font-weight: 300;
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 150px;
+    top: 35px;
+    background-color: transparent;
+
+}
+
+.box-two {
+    float: right;
+    position: relative;
+    top: 300px;
+    left: 1390px;
+    width: 1680px;
+    background-color: transparent;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 2px;  */
+}
+
+
+.box-two img {
+    float: right;
+    box-shadow: 10px -10px 15px lightgray;
+}
+
+.box-two p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 35px;
+    font-weight: 300;
+    float: left;
+    width: 50%;
+    position: relative;
+    left: 200px;
+    top:50px;
+    background-color: transparent;
+}
+
+.box-three {
+    float: left;
+    position: relative;
+    top: 400px;
+    width: 1680px;
+    background-color: transparent;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 2px;    */
+}
+
+.box-three img {
+    position: relative;
+    left: 100px;
+    box-shadow: 10px 10px 15px lightgray;
+}
+
+.box-three p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 35px;
+    font-weight: 300;
+    float: right;
+    width: 50%;
+    position: relative;
+    right: 150px;
+    top: 35px;
+    background-color: transparent;
+}
+
+.bottom {
+    height: 600px;
+    background-color: rgba(48, 127, 226, .25);
+    margin-bottom: 25px;
+}
+
+.footer {
+    height: 150px;
+    background-color: lightgray;
+}
